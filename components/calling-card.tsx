@@ -8,7 +8,13 @@ const services = [
 
 export function CallingCard() {
   return (
-    <article className="w-full max-w-md rounded-2xl border border-border bg-card p-8 shadow-sm sm:p-10">
+    <article className="w-full max-w-md overflow-hidden rounded-2xl border border-border bg-card shadow-sm">
+      <img
+        src="/images/cover.jpg"
+        alt="Moai stone statues on a green hillside under a blue sky"
+        className="h-40 w-full object-cover grayscale sm:h-48"
+      />
+      <div className="p-8 sm:p-10">
       <header className="flex items-center gap-4">
         <div
           aria-hidden="true"
@@ -77,6 +83,7 @@ export function CallingCard() {
           </a>
         </div>
       </section>
+      </div>
     </article>
   )
 }
