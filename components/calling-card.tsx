@@ -27,6 +27,7 @@ export function CallingCard() {
             DC&apos;s Tech Support
           </h1>
           <p className="text-sm text-muted-foreground">Digant Chhetri · Data · Web · AI</p>
+          <p className="mt-1 text-sm font-medium text-foreground">Now on GitHub</p>
         </div>
       </header>
 
