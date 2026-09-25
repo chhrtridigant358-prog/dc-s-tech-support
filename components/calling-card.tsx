@@ -24,9 +24,9 @@ export function CallingCard() {
         </div>
         <div>
           <h1 className="text-2xl font-semibold tracking-tight text-foreground text-balance">
-            Digant Chhetri
+            DC&apos;s Tech Support
           </h1>
-          <p className="text-sm text-muted-foreground">Data · Web · AI</p>
+          <p className="text-sm text-muted-foreground">Digant Chhetri · Data · Web · AI</p>
         </div>
       </header>
 
